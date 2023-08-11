@@ -1,2 +1,4 @@
 # Senegal_2019_malaria_analysis
-Key analysis scripts for paper analyzing 2019 falciparum data from Senegal
+Key analysis scripts for paper analyzing 2019 falciparum data from Senegal ("Malaria surveillance reveals parasite relatedness, signatures of selection, and correlates of transmission across Senegal").
+
+These scripts are quite specific to this dataset and the analysis in the paper and not at all pretty. They work from a vcf file containing the dataset and assume a directory structure with the following subdirectories under the directory containing the script: /data, /output, /seq, /results. They assume that whole genome sequence data is in a file named data/all.vcf.gz and that barcode data is in three files: data/Senegal_AllBarcodes_20200701.txt, data/mono_barcodes_filtered_2019.csv, and data/poly_barcodes_filtered_2019.csv. (These last three are included in this repository).
